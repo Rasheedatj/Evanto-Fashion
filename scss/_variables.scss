@@ -1,0 +1,19 @@
+$white:rgba(242, 242, 242, 1);
+$gray:rgba(166, 166, 166, 1);
+$grayShade1:rgba(115, 115, 115, 1);
+$grayShade2:rgba(64, 64, 64, 1);
+$grayShade3:rgba(13, 13, 13, 1);
+
+
+@mixin flex($direction){
+    display: flex;
+    justify-content: center;
+    flex-direction: $direction;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
